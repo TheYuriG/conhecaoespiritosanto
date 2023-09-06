@@ -1,13 +1,13 @@
-import { Head } from "$fresh/runtime.ts";
-import { useSignal } from "@preact/signals";
+import { CustomHead } from "../components/CustomHead.tsx";
 
 export default function Home() {
-  const count = useSignal(3);
   return (
     <>
-      <Head>
-        <title>conhecaoespiritosanto</title>
-      </Head>
+      <CustomHead
+        description="Bem vindo ao melhor site de turismo capixaba. Conheça os pontos turísticos mais importantes do estado e os diversos pontos de apoio que os rodeiam."
+        title="Bem Vindo!"
+        children={[]}
+      />
       <div class="px-4 py-8 mx-auto bg-azul">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <h1 class="text-4xl font-bold">Welcome to fresh</h1>

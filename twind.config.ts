@@ -5,6 +5,10 @@ import presetAutoprefix from "https://esm.sh/@twind/preset-autoprefix@1.0.7";
 export default {
   ...defineConfig({
     presets: [presetTailwind() as Preset, presetAutoprefix()],
+    preflight: {
+      "@import":
+        "url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Rubik&display=swap');",
+    },
     theme: {
       colors: {
         branco: "rgb(255, 255, 255)",
@@ -15,6 +19,18 @@ export default {
         "rosa-claro": "rgb(255, 192, 203)",
       },
     },
+    rules: [
+      ["font-agba", {
+        "font-family": "Agbalumo",
+      }],
+      ["font-rubik", {
+        "font-family": "Rubik",
+      }],
+      ["text-shadow-white", {
+        "filter":
+          "drop-shadow(0 2px 1px rgb(255 255 255 / 0.9)) drop-shadow(0 2px 1px rgb(255 255 255 / 0.9))",
+      }],
+    ],
   }),
   selfURL: import.meta.url,
 };

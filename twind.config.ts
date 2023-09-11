@@ -29,9 +29,27 @@ export default {
       ["font-rubik", {
         "font-family": "Rubik",
       }],
-      ["text-shadow-white", {
-        "filter":
-          "drop-shadow(0 2px 1px rgb(255 255 255 / 0.9)) drop-shadow(0 2px 1px rgb(255 255 255 / 0.9))",
+      ["text-shadow-rosa-claro", {
+        "filter": `drop-shadow(0 2px 1px ${
+          colors["rosa-claro"]
+        }) drop-shadow(0 2px 1px ${colors["rosa-claro"]})`,
+      }],
+      ["text-shadow-azul-claro", {
+        "filter": `drop-shadow(0 2px 1px ${
+          colors["azul-claro"]
+        }) drop-shadow(0 2px 1px ${colors["azul-claro"]})`,
+      }],
+      ["text-rosa", {
+        color: colors.rosa,
+      }],
+      ["text-rosa-claro", {
+        color: colors["rosa-claro"],
+      }],
+      ["text-azul", {
+        color: colors.azul,
+      }],
+      ["text-azul-claro", {
+        color: colors["azul-claro"],
       }],
     ],
   }),

@@ -7,10 +7,10 @@ export function EsSvg(
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      viewBox="105 125 357 574" //+298
+      viewBox="105 125 357 574"
       class={classes}
       fill="none"
-      stroke={stroke} // #0EA5D6
+      stroke={stroke}
       stroke-width="12"
       stroke-linecap="round"
       stroke-linejoin="round"

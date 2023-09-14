@@ -22,15 +22,15 @@ export default {
       ["font-rubik", {
         "font-family": "Rubik",
       }],
-      ["text-shadow-rosa-claro", {
+      ["text-shadow-rosa-escuro", {
         "filter": `drop-shadow(0 2px 1px ${
-          colors["rosa-claro"]
-        }) drop-shadow(0 2px 1px ${colors["rosa-claro"]})`,
+          colors["rosa-escuro"]
+        }) drop-shadow(0 2px 1px ${colors["rosa-escuro"]})`,
       }],
-      ["text-shadow-azul-claro", {
+      ["text-shadow-azul-escuro", {
         "filter": `drop-shadow(0 2px 1px ${
-          colors["azul-claro"]
-        }) drop-shadow(0 2px 1px ${colors["azul-claro"]})`,
+          colors["azul-escuro"]
+        }) drop-shadow(0 2px 1px ${colors["azul-escuro"]})`,
       }],
       ["text-rosa", {
         color: colors.rosa,

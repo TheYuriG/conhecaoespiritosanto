@@ -1,7 +1,9 @@
 // SVG do contorno do estado do Espírito Santo
 import { EsSvg } from "../assets/EsSvg.tsx";
 // Abstração de um Card
-import { Card } from "./UI/card.tsx";
+import { Card } from "./UI/Card.tsx";
+// Paleta de cores do site
+import { colors } from "../data/colors.ts";
 
 // Exporta o componente do banner da home page
 export function HomeBanner() {
@@ -10,7 +12,7 @@ export function HomeBanner() {
       {/* Linha com texto e icone do estado */}
       <div class="mx-2 md:mx-4 h-full flex items-center justify-center">
         {/* Coluna com Título e Texto */}
-        <Card backgroundColor="azul-clarissimo" shadowColor="rosa-claro">
+        <Card backgroundColor="azul-clarissimo" shadowColor="rosa-escuro">
           {/* Título */}
           <h1 class="text-4xl font-bold text-rosa font-agba text-shadow-azul-claro">
             Vamos conhecer o Espírito Santo?
@@ -24,7 +26,7 @@ export function HomeBanner() {
         </Card>
         {/* Ícone do estado */}
         <EsSvg
-          stroke="blue"
+          stroke={colors["azul-escuro"]}
           classes="shrink-0 w-[10em] sm:w-[20em] lg:w-[30em] ml-4"
         />
       </div>

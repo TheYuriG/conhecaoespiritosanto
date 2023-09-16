@@ -4,6 +4,8 @@ import { EsSvg } from "../assets/EsSvg.tsx";
 import { Card } from "./UI/Card.tsx";
 // Paleta de cores do site
 import { colors } from "../data/colors.ts";
+// Componente de título
+import { Title } from "./UI/Title.tsx";
 
 // Exporta o componente do banner da home page
 export function HomeBanner() {
@@ -14,9 +16,7 @@ export function HomeBanner() {
         {/* Coluna com Título e Texto */}
         <Card backgroundColor="azul-clarissimo" shadowColor="rosa-escuro">
           {/* Título */}
-          <h1 class="text-4xl font-bold text-rosa font-agba text-shadow-azul-claro">
-            Vamos conhecer o Espírito Santo?
-          </h1>
+          <Title content="Vamos conhecer o Espírito Santo?" />
           {/* Texto */}
           <p class="my-2 text-lg font-rubik">
             Do Norte ao Sul, o Espírito Santo guarda diversas surpresas para te

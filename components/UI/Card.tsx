@@ -16,9 +16,9 @@ export function Card(
 ) {
   return (
     <div
-      class={`px-4 py-2 ${height ? `h-[${height}]` : ""} ${
-        width ? `w-[${width}]` : ""
-      } flex flex-col items-center justify-around rounded-lg bg-${backgroundColor} shadow-xl shadow-${shadowColor}`}
+      class={`px-4 py-2${height ? ` h-[${height}]` : ""}${
+        width ? ` w-[${width}]` : ""
+      } flex flex-col items-center justify-around rounded-lg bg-${backgroundColor} shadow-lg shadow-${shadowColor}`}
     >
       {...children}
     </div>

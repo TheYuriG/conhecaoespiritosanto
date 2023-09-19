@@ -13,7 +13,6 @@ export function BeachSvg(
       stroke-linecap="round"
       stroke-linejoin="round"
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
       <path d="M17.553 16.75a7.5 7.5 0 0 0 -10.606 0"></path>
       <path d="M18 3.804a6 6 0 0 0 -8.196 2.196l10.392 6a6 6 0 0 0 -2.196 -8.196z">
       </path>

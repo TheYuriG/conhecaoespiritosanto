@@ -12,9 +12,9 @@ import { DividerWaveOneSvg } from "../assets/DividerWaveOneSvg.tsx";
 // Exporta o componente do banner da home page
 export function HomeBanner() {
   return (
-    <div class="h-screen bg-azul flex flex-col">
+    <div class="h-screen bg-azul pt-4 flex flex-col items-center">
       {/* Linha com texto e icone do estado */}
-      <div class="mx-2 md:mx-4 flex flex-grow items-center justify-center">
+      <div class="mx-2 md:mx-4 max-w-[1080px] flex flex-col sm:flex-row flex-grow items-center justify-center">
         {/* Coluna com Título e Texto */}
         <Card backgroundColor="azul-clarissimo" shadowColor="rosa-escuro">
           {/* Título */}
@@ -29,7 +29,7 @@ export function HomeBanner() {
         {/* Ícone do estado */}
         <EsSvg
           stroke={colors["azul-escuro"]}
-          classes="shrink-0 w-[10em] sm:w-[20em] lg:w-[30em] ml-4"
+          classes="shrink-0 mt-4 sm:mt-0 w-[20em] lg:w-[30em] ml-4"
         />
       </div>
       {/* Divisor de onda */}

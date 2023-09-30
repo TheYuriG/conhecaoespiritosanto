@@ -29,8 +29,9 @@ export function CustomHead(
         <meta property="og:title" content={title} />
         <meta property="og:site_name" content="Conheça o Espírito Santo" />
         <meta property="og:description" content={description} />
-        <meta name="description" content={description} />
         <meta property="og:type" content="blog" />
+        <link rel="icon" type="image/x-icon" href="./favicon.ico"></link>
+        <meta name="description" content={description} />
         {imageLink &&
           (
             <meta

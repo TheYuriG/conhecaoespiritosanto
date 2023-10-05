@@ -30,3 +30,22 @@ seguir foram usados como inspiração para criar o 'layout' do nosso site:
 - [Ruben Rekker](https://www.rubenrekker.com/)
 - [Nelson Travel](https://www.nelson.travel/)
 - [Adams And Butler](https://www.adamsandbutler.com/)
+
+### Execução
+
+Para começar, foi criado um componente que é responsável para gerar o Head da
+página HTML. Esse passo é importante para que nosso site seja encontrado em
+motores de pesquisa quando um usuário procurar por turismo no Estado do Espírito
+Santo.
+
+Depois disso, um componente responsável pelo banner de recebimento foi criado,
+baseado na inspiração do Carrd listado acima.
+
+Abaixo do banner, são listadas informações sobre os locais que temos informações
+de visita, através de um componente de funções.
+
+Por fim, é adicionado um rodapé a página que serve como mapa do site e links
+para redes sociais relacionadas. Inicialmente, todos os links não são
+funcionais, pois nenhuma dessas páginas foi criada ainda. Os links eventualmente
+levarão às páginas de rotas, pontos de apoio e parceiros do site, além de um
+template de email para sugerir essas três opções.

@@ -30,8 +30,10 @@ export function CustomHead(
         <meta property="og:site_name" content="Conheça o Espírito Santo" />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="blog" />
-        <link rel="icon" type="image/x-icon" href="./favicon.ico"></link>
-        <meta name="description" content={description} />
+        <meta
+          property="og:url"
+          content={"https://www.conhecaoespiritosanto.com.br" + (link ?? "")}
+        />
         {imageLink &&
           (
             <meta
@@ -39,10 +41,8 @@ export function CustomHead(
               content={imageLink}
             />
           )}
-        <meta
-          property="og:url"
-          content={link ?? "https://www.conhecaoespiritosanto.com.br"}
-        />
+        <link rel="icon" type="image/x-icon" href="./favicon.ico"></link>
+        <meta name="description" content={description} />
         {...toChildArray(children)}
       </Head>
     </>

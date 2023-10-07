@@ -45,6 +45,7 @@ export function CustomHead(
         <meta name="description" content={description} />
         {...toChildArray(children)}
       </Head>
+      <body class="custom-scrollbar scroll-smooth"></body>
     </>
   );
 }

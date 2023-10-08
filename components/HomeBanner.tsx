@@ -20,7 +20,7 @@ export function HomeBanner() {
           {/* Título */}
           <Title content="Vamos conhecer o Espírito Santo?" />
           {/* Texto */}
-          <p class="my-2 text-lg font-rubik">
+          <p class="my-2 text-lg">
             Do Norte ao Sul, o Espírito Santo guarda diversas surpresas para te
             surpreender! Preparado para descobrir o quanto você conhece deste
             pedacinho do Sudeste?

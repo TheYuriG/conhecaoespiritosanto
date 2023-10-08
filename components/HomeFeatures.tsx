@@ -20,7 +20,7 @@ export function HomeFeatures() {
           >
             {feature.icon}
             <Subtitle content={feature.subtitle} />
-            <p class="my-2 flex grow-1 font-rubik">
+            <p class="my-2 flex grow-1">
               {feature.text}
             </p>
           </Card>

@@ -69,7 +69,7 @@ export default function Footer() {
             {item.children.map((child) => (
               <li class="mt-2" key={child.name}>
                 <a
-                  class="hover:text-azul hover:underline"
+                  class="hover:text-rosa-escuro hover:underline"
                   href={child.href}
                 >
                   {child.name}
@@ -86,7 +86,7 @@ export default function Footer() {
         <div class="text-xs">
           Copyright © 2023{" "}
           <a
-            class="underline hover:text-azul"
+            class="underline hover:text-rosa-escuro"
             href="https://github.com/TheYuriG"
             target="_blank"
           >

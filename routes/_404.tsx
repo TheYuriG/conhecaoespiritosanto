@@ -1,18 +1,30 @@
-import { Head } from "$fresh/runtime.ts";
+import { CustomHead } from "../components/CustomHead.tsx";
+import { Title } from "../components/UI/Title.tsx";
+import { colors } from "../data/colors.ts";
+import { DeveloperIllustrationSvg } from "../illustrations/DeveloperIllustrationSvg.tsx";
 
 export default function Error404() {
   return (
     <>
-      <Head>
-        <title>404 - Page not found</title>
-      </Head>
-      <div class="px-4 py-8 mx-auto bg-[#86efac]">
-        <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-          <h1 class="text-4xl font-bold">404 - Page not found</h1>
-          <p class="my-4">
-            The page you were looking for doesn't exist.
+      <CustomHead
+        title="Página não encontrada"
+        description="Essa página é mostrada quando o usuário tenta acessar uma página inexistente."
+        link="/nao-encontrada"
+      >
+        <></>
+      </CustomHead>
+      <div class="px-4 py-8 mx-auto bg-azul-claro text-preto min-h-screen">
+        <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center gap-4">
+          <DeveloperIllustrationSvg
+            primaryColor={colors["azul-escuro"]}
+            secondaryColor={colors["rosa-escuro"]}
+            classes="bg-rosa-clarissimo border border-azul-escuro border-4 rounded rounded-lg p-2"
+          />
+          <Title content="404 - Página não encontrada" />
+          <p>
+            A página que você tentou acessar não existe.
           </p>
-          <a href="/" class="underline">Go back home</a>
+          <a href="/" class="underline">Voltar para página principal</a>
         </div>
       </div>
     </>

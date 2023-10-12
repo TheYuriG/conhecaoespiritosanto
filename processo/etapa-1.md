@@ -49,3 +49,23 @@ para redes sociais relacionadas. Inicialmente, todos os links não são
 funcionais, pois nenhuma dessas páginas foi criada ainda. Os links eventualmente
 levarão às páginas de rotas, pontos de apoio e parceiros do site, além de um
 template de email para sugerir essas três opções.
+
+#### Página de erros
+
+Um dos requisitos comuns de aplicações na web é a capacidade de lidar com erros
+de acesso para URLs não existentes. Como foram criadas rotas para páginas que
+ainda não existem na criação do rodapé, a apresentação de tal página de erro se
+faz ainda mais necessária, portanto uma é criada.
+
+Uma boa página de erro precisa ser clara ao informar ao usuário o que aconteceu
+e que ações ele pode ter a partir dali. Como essa página de erro é para páginas
+que não existem, vamos informar exatamente isso ao usuário e oferecer que ele
+retorne para a página principal do site. Essa mesma página continuará a ser
+usada futuramente, quando todos os links eventualmente levarem a rotas
+funcionais, uma vez que o usuário ainda pode acessar, manualmente ou
+erroneamente direcionado por um link quebrado, uma página que não existe.
+
+No design inicial, a página de erro apresenta um design simples, mostrando uma
+imagem de uma pessoa usando o computador, com uma expressão de surpresa. Abaixo
+dessa imagem, segue o texto informando o erro e sugerindo retornar para a página
+principal.

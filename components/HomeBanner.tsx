@@ -14,7 +14,7 @@ export function HomeBanner() {
   return (
     <div class="h-screen bg-azul pt-4 flex flex-col items-center">
       {/* Linha com texto e icone do estado */}
-      <div class="mx-2 md:mx-4 max-w-[1080px] flex flex-col sm:flex-row flex-grow items-center justify-center">
+      <div class="mx-2 max-w-[1100px] flex flex-col sm:flex-row flex-grow items-center justify-center">
         {/* Coluna com Título e Texto */}
         <Card backgroundColor="azul-clarissimo" shadowColor="rosa-escuro">
           {/* Título */}

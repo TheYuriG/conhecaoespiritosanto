@@ -1,8 +1,13 @@
+// Importa Head para adicionar metadados para SEO
 import { CustomHead } from "../components/CustomHead.tsx";
+// Importa componente de título
 import { Title } from "../components/UI/Title.tsx";
+// Importa esquema de cores do aplicativo
 import { colors } from "../data/colors.ts";
+// Importa ilustração de homem no computador
 import { DeveloperIllustrationSvg } from "../illustrations/DeveloperIllustrationSvg.tsx";
 
+// Exporta página de erro para código de resposta HTTP 404 NOT FOUND.
 export default function Error404() {
   return (
     <>

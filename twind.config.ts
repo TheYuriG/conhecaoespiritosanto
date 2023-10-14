@@ -46,18 +46,6 @@ export default {
           colors["azul-escuro"]
         }) drop-shadow(0 2px 1px ${colors["azul-escuro"]})`,
       }],
-      ["text-rosa", {
-        color: colors.rosa,
-      }],
-      ["text-rosa-claro", {
-        color: colors["rosa-claro"],
-      }],
-      ["text-azul", {
-        color: colors.azul,
-      }],
-      ["text-azul-claro", {
-        color: colors["azul-claro"],
-      }],
     ],
   }),
   selfURL: import.meta.url,

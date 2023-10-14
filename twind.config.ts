@@ -33,9 +33,6 @@ export default {
       ["font-agba", {
         "font-family": "Agbalumo",
       }],
-      ["font-rubik", {
-        "font-family": "Rubik",
-      }],
       ["text-shadow-rosa-escuro", {
         "filter": `drop-shadow(0 2px 1px ${
           colors["rosa-escuro"]

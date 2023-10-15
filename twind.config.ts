@@ -43,6 +43,25 @@ export default {
           colors["azul-escuro"]
         }) drop-shadow(0 2px 1px ${colors["azul-escuro"]})`,
       }],
+      ["primary-button", {
+        "&": {
+          "font-weight": "bold",
+          "text-transform": "uppercase",
+          "color": colors.branco,
+          "background-color": colors["rosa-escuro"],
+          "margin": "0.5rem",
+          "padding-top": "0.5rem",
+          "padding-bottom": "0.5rem",
+          "padding-left": "1rem",
+          "padding-right": "1rem",
+          "border-radius": "0.8rem",
+          "transition": "box-shadow 400ms, transform 400ms",
+        },
+        "&:hover": {
+          "box-shadow": `0.3em 0.3em ${colors["azul-claro"]}`,
+          "transform": "translate(-0.3em, -0.3em)",
+        },
+      }],
     ],
   }),
   selfURL: import.meta.url,

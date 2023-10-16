@@ -1,5 +1,8 @@
 // Importa Head para adicionar metadados para SEO
 import { CustomHead } from "../components/CustomHead.tsx";
+import { PrimaryButton } from "../components/UI/PrimaryButton.tsx";
+// Importa botão primário
+
 // Importa componente de título
 import { Title } from "../components/UI/Title.tsx";
 // Importa esquema de cores do aplicativo
@@ -29,7 +32,11 @@ export default function Error404() {
           <p>
             A página que você tentou acessar não existe.
           </p>
-          <a href="/" class="underline">Voltar para página principal</a>
+          <a href="/" class="underline">
+            <PrimaryButton>
+              Voltar para página principal
+            </PrimaryButton>
+          </a>
         </div>
       </div>
     </>

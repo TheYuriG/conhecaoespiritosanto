@@ -2,6 +2,8 @@
 import { EsSvg } from "../assets/EsSvg.tsx";
 // Abstração de um Card
 import { Card } from "./UI/Card.tsx";
+// Componente de botão primário
+import { PrimaryButton } from "./UI/PrimaryButton.tsx";
 // Paleta de cores do site
 import { colors } from "../data/colors.ts";
 // Componente de título
@@ -25,6 +27,11 @@ export function HomeBanner() {
             surpreender! Preparado para descobrir o quanto você conhece deste
             pedacinho do Sudeste?
           </p>
+          <a href="/rotas">
+            <PrimaryButton>
+              Conhecer pontos
+            </PrimaryButton>
+          </a>
         </Card>
         {/* Ícone do estado */}
         <EsSvg

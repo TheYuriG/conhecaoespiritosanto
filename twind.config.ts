@@ -62,6 +62,24 @@ export default {
           "transform": "translate(-0.3em, -0.3em)",
         },
       }],
+      ["transition-shadow-rosa-azul", {
+        "&": {
+          "box-shadow": "0.5em 0.5em 0.5em " + colors["rosa"],
+          "transition": "box-shadow 400ms",
+        },
+        "&:hover": {
+          "box-shadow": "0.3em 0.3em 0.2em " + colors["azul"],
+        },
+      }],
+      ["transition-shadow-azul-rosa", {
+        "&": {
+          "box-shadow": "0.5em 0.5em 0.5em " + colors["azul"],
+          "transition": "box-shadow 400ms",
+        },
+        "&:hover": {
+          "box-shadow": "0.3em 0.3em 0.2em " + colors["rosa"],
+        },
+      }],
     ],
   }),
   selfURL: import.meta.url,

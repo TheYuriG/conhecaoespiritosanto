@@ -1,6 +1,7 @@
 // SVGs
 import { ToriiSvg } from "../../assets/ToriiSvg.tsx";
 import { BeachSvg } from "../../assets/BeachSvg.tsx";
+import { HotelSvg } from "../../assets/HotelSvg.tsx";
 import { RestaurantSvg } from "../../assets/RestaurantSvg.tsx";
 import { GlassSvg } from "../../assets/GlassSvg.tsx";
 // Cores
@@ -38,6 +39,18 @@ const routeEntertainmentSvgs = {
         classes={routeSvgClasses}
       />{" "}
       {RouteEntertainmentEnum.PRAIA}
+    </span>
+  ),
+  [RouteEntertainmentEnum.HOSPEDAGEM]: (
+    <span
+      title={RouteEntertainmentEnum.HOSPEDAGEM}
+      class={routeSpanClasses}
+    >
+      <HotelSvg
+        stroke={colors["azul-escuro"]}
+        classes={routeSvgClasses}
+      />{" "}
+      {RouteEntertainmentEnum.HOSPEDAGEM}
     </span>
   ),
   [RouteEntertainmentEnum.RESTAURANTE]: (

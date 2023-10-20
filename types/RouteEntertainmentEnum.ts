@@ -2,6 +2,7 @@
 export enum RouteEntertainmentEnum {
   PONTO_TURISTICO = "Ponto Turístico",
   PRAIA = "Praia",
+  HOSPEDAGEM = "Hospedagem",
   RESTAURANTE = "Restaurante",
   VIDA_NOTURNA = "Vida Noturna",
 }

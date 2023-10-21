@@ -32,7 +32,7 @@ export const homeFeaturesList: HomeFeaturesInterface[] = [{
   icon: RoadSvg({ stroke: colors["azul-escuro"] }),
   subtitle: "Melhores caminhos",
   text:
-    "Estradas com melhores condições de conservação são marcadas como rotas preferenciais.",
+    "Estradas com melhores condições de conservação são marcadas como rotas preferenciais para garantir que você tenha a melhor viagem.",
 }, {
   icon: UsersSvg({ stroke: colors["azul-escuro"] }),
   subtitle: "Diversão para todos",

@@ -12,11 +12,12 @@ const menus = [
     title: "Viagens",
     icon: (
       <PlaneSvg
-        stroke={colors["azul-escuro"]}
+        stroke={colors["azul-clarissimo"]}
         classes="w-4 h-4 inline-block"
       />
     ),
     children: [
+      { name: "Página inicial", href: "/" },
       { name: "Rotas registradas", href: "/rotas" },
       { name: "Pontos de apoio", href: "/pontos-de-apoio" },
       { name: "Parceiros", href: "/parceiros" },
@@ -25,7 +26,10 @@ const menus = [
   {
     title: "Fale conosco",
     icon: (
-      <EmailSvg stroke={colors["azul-escuro"]} classes="w-4 h-4 inline-block" />
+      <EmailSvg
+        stroke={colors["azul-clarissimo"]}
+        classes="w-4 h-4 inline-block"
+      />
     ),
     children: [
       {
@@ -49,7 +53,7 @@ const menus = [
 
 export default function Footer() {
   return (
-    <div class="bg-azul-clarissimo text-azul-escuro flex flex-col md:flex-row w-full gap-8 md:gap-16 px-8 py-8 text-sm">
+    <div class="bg-azul-escuro text-azul-clarissimo flex flex-col md:flex-row w-full gap-8 md:gap-16 px-8 py-8 text-sm">
       {/* Título */}
       <div class="flex-1">
         <div class="font-bold text-2xl">
@@ -69,7 +73,7 @@ export default function Footer() {
             {item.children.map((child) => (
               <li class="mt-2" key={child.name}>
                 <a
-                  class="hover:text-rosa-escuro hover:underline"
+                  class="hover:text-rosa-claro hover:underline"
                   href={child.href}
                 >
                   {child.name}
@@ -86,7 +90,7 @@ export default function Footer() {
         <div class="text-xs">
           Copyright © 2023{" "}
           <a
-            class="underline hover:text-rosa-escuro"
+            class="underline hover:text-rosa-claro"
             href="https://github.com/TheYuriG"
             target="_blank"
           >
@@ -98,10 +102,13 @@ export default function Footer() {
         {/* Ícones de mídia social */}
         <div class="flex">
           <a href="https://www.instagram.com/theyurig/" target="_blank">
-            <InstagramSvg stroke={colors["azul-escuro"]} classes="w-8 h-8" />
+            <InstagramSvg
+              stroke={colors["azul-clarissimo"]}
+              classes="w-8 h-8"
+            />
           </a>
           <a href="https://www.instagram.com/theyurig/" target="_blank">
-            <TikTokSvg stroke={colors["azul-escuro"]} classes={`w-8 h-8`} />
+            <TikTokSvg stroke={colors["azul-clarissimo"]} classes={`w-8 h-8`} />
           </a>
         </div>
       </div>

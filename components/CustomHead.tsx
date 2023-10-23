@@ -45,7 +45,11 @@ export function CustomHead(
         <meta name="description" content={description} />
         {...toChildArray(children)}
       </Head>
-      <body class="custom-scrollbar font-rubik scroll-smooth"></body>
+      <body
+        class="custom-scrollbar scroll-smooth min-h-screen flex flex-col"
+        style='font-family: "Rubik"'
+      >
+      </body>
     </>
   );
 }

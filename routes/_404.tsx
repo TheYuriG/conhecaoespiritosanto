@@ -21,7 +21,7 @@ export default function Error404() {
       >
         <></>
       </CustomHead>
-      <div class="px-4 py-8 mx-auto bg-azul-claro text-preto min-h-screen">
+      <div class="px-4 py-8 bg-azul text-preto min-h-screen">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center gap-4">
           <DeveloperIllustrationSvg
             primaryColor={colors["azul-escuro"]}
